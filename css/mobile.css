@@ -26,7 +26,7 @@
 
     div#header-abertura h1 {
         font-family: 'OSD-SANS';
-        margin-top: 0;
+        font-size: 1.5em;
     }
 
     div#header-abertura p {
@@ -240,5 +240,21 @@
         animation-duration: 1s;
         animation-iteration-count: infinite;
         animation-direction: alternate;
+    }
+
+    footer {
+        background-color: #0B0A26;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        color: #fff;
+    }
+
+    footer a {
+        color: yellow;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
     }
 }

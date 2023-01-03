@@ -285,4 +285,20 @@ ul {
         color: #000;
         background-color: #fff;
     }
+
+    footer {
+        background-color: #0B0A26;
+        text-align: center;
+        box-sizing: border-box;
+        padding: 10px;
+        color: #fff;
+    }
+
+    footer a {
+        color: yellow;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
 }
